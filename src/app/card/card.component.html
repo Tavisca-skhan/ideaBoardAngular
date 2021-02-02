@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="notes" >
+        {{card.notes}}
+    </div>
+    <div class="action">
+        <div class="edit" (click)="editCard(card.id)">
+            Edit
+        </div>
+        <div class="delete" (click)="deleteCard(card.id)">Delete</div>
+        <div class="like" (click)="likeCard(card.id)">Like</div>
+        <div class="likes">{{card.likes}}</div>
+
+    </div>
+</div>

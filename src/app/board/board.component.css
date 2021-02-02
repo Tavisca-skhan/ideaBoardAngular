@@ -1,0 +1,36 @@
+.tiles
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+.board-header
+{
+    background: red;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tile
+{
+    width: 30%;
+    
+}
+.header{
+    display: flex;
+    height: 40px;
+    background-color: grey;
+    justify-content: space-evenly;
+
+
+}
+.name
+{
+    
+    
+   
+
+}

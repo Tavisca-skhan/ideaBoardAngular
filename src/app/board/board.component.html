@@ -1,0 +1,50 @@
+<div class="board">
+    <div class="board-header">IdeaBoard</div>
+    <div class="tiles">
+        <div class="tile tile1">
+            <div class="header">
+                <div class="name">TILE 1</div>
+                <div class="add" (click)="addCard('1')">
+                    +
+                </div>
+            </div>
+            <div class="cards-list">
+                <ng-container *ngFor="let card of cards">
+                    <app-card *ngIf="card.tileId=='1'" [card]='card'>
+                    </app-card>
+                </ng-container>
+            </div>
+        </div>
+
+        <div class="tile tile2">
+            <div class="header">
+                <div class="name">TILE 2</div>
+                <div class="add" (click)="addCard('2')">
+                   +
+                </div>
+            </div>
+            <div class="cards-list">
+                <ng-container *ngFor="let card of cards">
+                    <app-card *ngIf="card.tileId=='2'" [card]='card'>
+                    </app-card>
+                </ng-container>
+            </div>
+        </div>
+
+        <div class="tile tile3">
+            <div class="header">
+                <div class="name">TILE 3</div>
+                <div class="add" (click)="addCard('3')">
+                    +
+                </div>
+            </div>
+
+            <div class="cards-list">
+                <ng-container *ngFor="let card of cards">
+                    <app-card *ngIf="card.tileId=='3'" [card]='card'>
+                    </app-card>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>

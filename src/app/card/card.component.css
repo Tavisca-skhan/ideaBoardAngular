@@ -1,0 +1,19 @@
+.action{
+    display: flex;
+    justify-content: space-evenly;
+}
+.notes{
+    height: 80%;
+    padding: 10px;
+    word-break: break-all;
+    overflow: hidden;
+
+}
+.card{
+    height: 250px;
+    width: 200px;
+    background-color :cornflowerblue;
+    border-radius: 20px;
+    margin: 5px;
+
+}
